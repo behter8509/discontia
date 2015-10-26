@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Catalog</title>
+
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.structure.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body class="catalog">
+
+	<div class="container" >
+
+		<header class="header clearfix">			
+
+			<div class="left-side"> 
+				<div class="header__logo">
+					<a href="" class="h-logo__link">
+						<img src="img/logo.png" alt="Discontia logo" class="h-logo__img">
+					</a>
+				</div><!-- .header__logo ends -->
+				<div class="header__slogan">
+					<span class="h-slogan__span">Exklusivität ist erschwinglich</span>
+				</div><!-- .header__slogan ends -->
+		 	</div> 
+
+		 	<div class="right-side"> 
+				<nav class=" header__nav">
+					<ul class="h-nav__list">
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Damen</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Herren</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Kinder</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Marken</a>
+						</li>
+					</ul><!-- .h-nav__list ends -->
+				</nav><!-- .header__nav ends -->
+				
+				<div class="header__search">
+					<form action="#" class="h-search__form">
+						<div class="h-search__block clearfix">
+							<input type="text" placeholder="Ihr Suchbegriff" id="h-search__input" class="h-search__input">
+							<input type="submit" value="" class="h-search__submit">
+						</div>
+					</form>
+				</div><!-- .header__search ends -->
+				
+				<div class="header__whishlist">
+					<a href="#" class="h-whishlist__button"></a>					
+					<a href="#" class="h-whishlist__span">Wunschzettel</a>
+				</div><!-- .header__whishlist ends -->
+			</div>
+
+		
+
+			<!-- mobile version menu <= 1200px -->
+			<nav class="mob-menu">
+				<form>
+					<div class="menu-btn">
+						<!-- <a  href=""><img src="./img/menu-mob.png"></a> -->
+						<a id="show-menu" class="close-menu menu-txt">menÜ</a>						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="Ihr Suchbegriff" />
+						<span class="search-btn"><input type="submit" value="" /></span>
+					</div>
+				</form>
+
+			</nav>
+			
+			<nav class="mob_sub__menu clearfix">
+				<ul class="mob_sub__parent">                                  
+					<li>
+						<a href="#" id="damen_sub__list" class="">Damen</a>
+					</li>
+					<li><a href="">HERREN</a></li>
+					<li><a href="">KINDER</a></li>
+					<li><a href="">MARKEN</a></li>
+				</ul>
+			</nav>
+
+			<nav class="damen__sub_list mob_sub__menu">
+				<ul class="mob_sub__list">
+									
+					<li class="">
+						<a href="#" id="am-sub__list" class="">Acessoires</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">Bauty</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="mob_sub_child" class="active">Bekleidung</a>
+
+						<ul class="mob_sub__child">
+
+							<li class="">
+								<a href="#" class="">Bademode</a>
+							</li>
+							<li class="">
+								<a href="#" class="">Blazer</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Blusen & Tuniken</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hosen</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hosenanzüge & Kostüme</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Jacken</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Jeans</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hemden</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Kleider</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Mäntel</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Pullover</a>
+							</li>
+							
+							<li class="">
+								<a href="#" id="am-child_list" class="">Shirts & Tops</a>
+							</li>
+		
+						</ul>
+
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">WÄSCHE</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SCHUHE</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SPORTBEKLEIDUNG</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SPORTSCHUHE</a>
+					</li>
+				</ul><!-- .a-menu__list -->
+			</nav>
+
+		</header><!-- .header ends -->
+
+		<main class="main">
+			<div class="main__filters">
+				<ul class="m-filters__list">
+					<li class="m-filters__item">
+						<div class="mfs-block">
+							<ul name="m-filter-marken" id="m-filter__marken" class="m-filters__select">
+								<li> <a class="drop-list open-list" href="#">Marken</a>  <span id="sparrow-list" class="close"> </span>
+									
+									<ul  id="sub_list" class="marken-list">
+										<li class="clearfix m-filters__search">
+											<div class="header__search">
+												<form action="#" class="h-search__form">
+													<div class="h-search__block">
+														<input type="text" placeholder="Ihr Suchbegriff" id="h-search__input" class="h-search__input">
+														<input type="submit" value="" class="h-search__submit">
+													</div>
+												</form>
+											</div><!-- .header__search ends -->
+										</li>
+
+										<li>
+											<a href="#" for="Benetton">Benetton</a>
+										</li>
+										<li>											
+											<a href="#" for="Superdry">Superdry</a>
+										</li>
+										<li>											
+											<a href="#" for="emp-arm">Emporio Armani</a>
+										</li>
+										<li>											
+											<a href="#" for="d_g">D&G</a>
+										</li>
+										<li>											
+											<a href="#" for="s_oliwer">s.Oliwer</a>
+										</li>
+										<li>											
+											<a href="#" for="Mexx">Mexx</a>
+										</li>
+										<li>											
+											<a href="#" for="Lacoste">Lacoste</a>
+										</li>
+										<li>											
+											<a href="#" for="gas">Gas</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="m-filters__item">
+						<div class="mfs-block">
+							<ul name="m-filter-farbe" id="m-filter__farbe" class="m-filters__select">
+								<li id="drop-farbe" class="drop-farbe" > <a class="drop-list open-list" href="#"> Farbe </a><span id="sparrow-list" class="close"></span>
+									<ul id="sub_list" class="farbe-list">
+										<li><span class="anthrazit"></span>
+											<a href="#">Anthrazit</a>
+										</li>
+										<li>											
+											<span class="beige"></span>
+											<a href="#">Beige</a>
+										</li>
+										<li>											
+											<span class="braun"></span>
+											<a href="#">Braun</a>
+										</li>
+										<li>											
+											<span class="dunkelblau"></span>
+											<a href="#">Dunkelblau</a>
+										</li>
+										<li>											
+											<span class="dukelgrun"></span>
+											<a href="#">Dukelgrün</a>
+										</li>
+										<li>											
+											<span class="gelb"></span>
+											<a href="#">Gelb</a>
+										</li>
+										<li>											
+											<span class="gold"></span>
+											<a href="#">Gold</a>
+										</li>
+									</ul>
+								</li>	
+								
+							</ul>
+						</div>
+					</li>
+					<li class="m-filters__item">
+						<div class="mfs-block">
+							<ul name="m-filter-preis" id="m-filter__preis" class="m-filters__select">
+								<li class="preis" id="preis-list"> <a class="drop-list open-list" href="#">Preis</a> 
+								  <span id="sparrow-list" class="close"></span>
+								
+									<ul id="sub_list" class="preis-diapazon">
+										<li>
+											<div id="preis-diapazon" class="my-slider"></div>
+											<p class="amount">				 		
+										  		<input type="text" id="amount" readonly />
+										  		<input type="text" id="amount-max" readonly />
+											</p>
+										</li>										
+									</ul>
+
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="m-filters__item">
+						<div class="mfs-block">
+							<ul name="m-filter-rabattbetrag" id="m-filter__rabattbetrag" class="m-filters__select">
+								<li value="rabattbetrag" id="rab-list"> <a class="drop-list open-list" href="#">Rabattbetrag </a><span id="sparrow-list" class="close"></span>
+									<ul  id="sub_list" class="rab-list">										
+										<li><a href="">von 30%</a></li>
+										<li><a href="">von 50%</a></li>
+										<li><a href="">von 70%</a></li>
+									</ul>
+
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div><!-- .main__filters ends -->
+
+			<!-- Main filters mobile -->
+			<div class="main__filters_mobile">
+				<ul class="clearfix categorien">
+					<li class="left-m">
+						<a id="down-k" href="">Kategorien</a>	
+						<span id="list-sparrow" class="down"></span>
+												
+					</li>
+					<li class="right-m active">
+						<a id="down-f" class="" href="">Filtren</a>	
+						<span id="list-sparrow" class="down"></span>	
+												
+					</li>
+				</ul>
+
+				<ul class="mob__sub_menu">	
+
+					<li id="mob__filter-menu" class="sub__menu">
+						
+						<ul>
+							<li class="a__menu_filtren"><a href="" id="mob__kat_child">mARKEN</a>								
+								
+								<ul class="marken__child">
+									<li><a href="">Adidas</a></li>
+									<li><a href="">Marc O`Polo</a></li>
+									<li><a href="">Tom Tailor</a></li>	
+									<li><a href="">Nike</a></li>
+									<li><a href="">Joop!</a></li>
+									<li><a href="">Tommy Hilfiger</a></li>
+									<li><a href="">Strellson</a></li>
+									<li><a href="">Pepe Jeans</a></li>
+									<li><a href="">Jack & Jones</a></li>
+									<li><a href="">ONLY</a></li>
+								</ul>	
+							</li>	
+
+							</li>
+							
+							<li class="a__menu_filtren farbe_child">
+
+								<a id="a__child_close" class="a__child_active" href="">fARBE</a>
+								
+								<ul id="sub_list" class="a__menu_child farbe-list">
+											
+									<li><span class="anthrazit"></span>
+										<a href="#">Anthrazit</a>
+									</li>
+									<li>											
+										<span class="beige"></span>
+										<a href="#">Beige</a>
+									</li>
+									<li>											
+										<span class="braun"></span>
+										<a href="#">Braun</a>
+									</li>
+									<li>											
+										<span class="dunkelblau"></span>
+										<a href="#">Dunkelblau</a>
+									</li>
+									<li>											
+										<span class="dukelgrun"></span>
+										<a href="#">Dukelgrün</a>
+									</li>
+									<li>											
+										<span class="gelb"></span>
+										<a href="#">Gelb</a>
+									</li>
+									<li>											
+										<span class="gold"></span>
+										<a href="#">Gold</a>
+									</li>
+								</ul>	
+
+							</li>
+
+							<li id="preis-list" class="a__menu_filtren preis">
+								<a id="a__child_close" class="a__child_active" href="">preis</a>
+								<ul id="sub_list" class="a__menu_child">
+									<li>
+										<div id="preis-diapazon_mob" class="preis-diapazon_mob"></div>
+										<p class="amount">				 		
+									  		<input type="text" id="kat__amount" readonly />
+									  		<input type="text" id="kat__amount-max" readonly />
+										</p>
+									</li>										
+								</ul>
+							</li>
+
+							<li class="a__menu_filtren rab__menu">
+								<a href="" id="a__child_close">rABATTBETRAG</a>
+								
+								<ul class="a__menu_child">
+									<li><a href="">von 30%</a></li>
+									<li><a href="">von 50%</a></li>
+									<li><a href="">von 70%</a></li>
+								</ul>
+
+							</li>
+
+							<li class="a__menu_filtren rab__menu">
+								<a href="" id="a__child_close">sORTIERUNG</a>
+									<ul class="a__menu_child">
+										<li><a href="">Relevanz</a></li>
+										<li><a href="">Preis (aufsteigend)</a></li>
+										<li><a href="">Preis (absteigend)</a></li>
+										<li><a href="">Reduzierung</a></li>
+									</ul>
+							</li>
+						</ul>	
+					</li>
+
+					<li id="mob__kat-menu" class="sub__menu">
+						
+						<ul>
+							<li><a href="">ACCESSOIRES</a></li>
+							<li><a href="">BEAUTY</a></li>
+							<li><a href="">BEKLEIDUNG</a></li>
+							<li><a href="">WÄSCHE</a></li>
+							<li><a href="">SPORTBEKLEIDUNG</a></li>
+							<li><a href="">SPORTSCHUHE</a></li>
+							<li class="mob__kat_child" >
+								<a id="mob__kat_child" href="">HERREN</a>
+								<ul>
+									<li><a href="">Accessoires</a></li>
+									<li><a href="">Beauty</a></li>
+									<li><a href="">Sportbekleidung</a></li>	
+									<li><a href="">Sportschuhe</a></li>
+									<li><a href="">Bekleidung</a></li>
+									<li><a href="">Wäsche</a></li>
+									<li><a href="">Schuhe</a></li>
+								</ul>	
+							</li>
+							
+							<li class="mob__kat_child">
+								<a id="mob__kat_child" href="">KINDER</a>
+									<ul>
+										<li><a href="">Baby</a></li>
+										<li><a href="">Jungen</a></li>
+										<li><a href="">mädchen</a></li>
+									</ul>
+							</li>
+
+						</ul>
+					</li>
+
+				</ul>			
+
+			</div>
+
+
+
+
+			<!-- End main filters mobile -->
+
+			<div class="main__content">
+				<div class="row">
+					<div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 main__content_left">
+						<aside class="aside">
+							<div class="h-search__block search_mob">
+								<input id="h-search__input" class="h-search__input" type="text" placeholder="Ihr Suchbegriff">
+								<input class="h-search__submit" type="submit" value="">
+							</div>
+							<ul class="custom_filter">
+								<li>Filtren <a id="close-all-f"></a></li>
+								<li>Bekleidung: <span>Hosen</span> <a id="close-f"></a></li>
+								<li>Marken: <span>Tom Tailor</span> <a id="close-f"></a></li>
+								<li>Farbe:<span> Braun</span> <a id="close-f"></a></li>
+							</ul>
+
+							<div class="aside__menu">
+
+								<ul class="a-menu__list">
+									
+									<li class="a-menu__item a-menu__item_active a-menu">
+										
+										<a href="#" id="am-sub__list" class="close_list curr_list a-menu__link">Damen</a>
+										
+										<ul class="am-sub__list ">
+												
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Acessoires</a>
+
+												<ul class="am-sub__list list_2">
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Acessoires</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bauty</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bekleidung</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Wäsche</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Schuhe</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Sportbekleidung</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Sportschuhe</a>
+													</li>
+												</ul>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Bauty</a>
+											</li>
+
+											<li class="a-menu__item bg__sub_menu">
+												<a href="#" id="am-sub__list" class="close_list active a-sub__link">Bekleidung</a>
+
+												<ul class="am-sub__list list_2 pos_list">
+
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bademode</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Blazer</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Blusen & Tuniken</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hosen</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hosenanzüge & Kostüme</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Jacken</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Jeans</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hemden</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Kleider</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Mäntel</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Pullover</a>
+													</li>
+													
+													<li class="am-sub__item">
+														<a href="#" id="am-child_list" class="a__sub_open am-sub__link active">Shirts & Tops</a>
+														
+														<ul class="am-sub_child__menu">
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Poloshirts</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">T-Shirts</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Tops</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link active">Longsleeves</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Boleros</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Strickshirts</a>
+															</li>								
+														</ul>
+													</li>
+								
+												</ul>
+
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Wäsche</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Schuhe</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Sportbekleidung</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Sportschuhe</a>
+											</li>
+										</ul>
+
+										</li>
+
+										<li class="a-menu__item a-menu__item_active">
+											<a href="#" id="am-sub__list" class="a-menu__link">Herren</a>
+										</li>
+										
+										<li class="a-menu__item a-menu__item_active">
+											<a href="#" id="am-sub__list" class="a-menu__link">Kinder</a>
+										</li>
+									
+								</ul><!-- .a-menu__list -->
+							</div><!-- .aside__menu ends -->						
+
+							<article class="aside__article">
+								<h2 class="a-article__header">Damenbekleidung billiger</h2>
+								<p class="a-article__content">
+									Sie möchten für bevorstehende Events den passenden Look finden und sich nicht dem Stress in der Fußgängerzone aussetzen? Bei uns auf Discontia.de werden Sie sicherlich die für sich selbst optimale Damen Bekleidung finden können. Wir achten immerhin darauf, höchste Qualität mit einzigartigen Designs zu kombinieren, damit Sie sich in Ihrer Haut rundum wohlfühlen können. Wir als Online-Plattform führen zahlreiche Angebote Hunderter Shops für Sie zusammen, damit Sie auch bei der Damen Bekleidung von einem hohen Komfort profitieren können. Um sich jetzt selbst von der Auswahl zu überzeugen, finden Sie im Folgenden eine Aufzählung aller angebotenen Kreationen der Damen Bekleidung. Demnach ist es egal, ob Sie nach Bademode suchen oder doch eher die eleganten Blazer in unterschiedlichen Varianten Ihr Eigen nennen möchten. Weiterhin können Sie Suchen nach Blusen & Tuniken, Hosen, Hosenanzüge & Kostüme, Jacken oder aber Jeans vornehmen. Sie sehen also, dass hier garantiert für jeden Stil das Passende zur Verfügung gestellt wird. Auch Hemden, Kleider, Mäntel, Pullover sowie Röcke zieren das Angebot, in dem Sie sich gerade befinden. Die Bandbreite der Damen Bekleidung reicht sogar bis hin zu Umstandsmode.
+								</p>
+							</article>
+						</aside><!-- .aside ends -->
+					</div><!-- .col-md-2 ends-->
+					<div class="col-lg-10 col-md-9 col-sm-9 col-xs-9 main__content_right">
+						<section class="showcase">
+							<div class="showcase__header">
+								<div class="row">
+									<div class="col-md-8 title__header">
+										<h1 class="s-header__heading">Reduzierte Damen Bekleidung</h1>
+									</div>
+									<div class="col-md-3 title__sort">										
+											<ul name="sh-sorter" id="sh-sorter__select" class="sh-sorter__box sh-sorter__select">
+												<li class="sh-sorter__item">Sortierung 
+													<span class="sh__open"></span>
+
+													<ul id="sh__sub_menu" class="sh__sub_menu">
+														<li><a href="">Relevanz</a></li>
+														<li><a href="">Preis(aufsteigend)</a></li>
+														<li><a href="">Preis(absteigend)</a></li>
+														<li><a href="">Reduzierung</a></li>
+													</ul>
+
+												</li>  
+											</ul>
+										
+									</div>
+								</div>
+							</div>
+							<div class="showcase__galery">
+								<ul class="s-galery__list">
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-1.jpg" alt="Product image" class="p-image__img">
+												</a>
+											</div>
+											
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><a href="#"><span class="p-price__shop">Zum shop</span></a></a>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-2.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-3.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-4.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">												
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-5.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-6.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-7.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-8.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-9.jpg" alt="Product image" class="p-image__img">
+												</a>
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-10.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-11.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-12.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-13.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-1.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-2.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-3.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-4.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-5.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-6.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<p class="p-description__text">Gabor Schaftsandale ocean</p>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-7.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<a href="#"><span class="p-price__shop">Zum shop</span></a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div><!-- .showcase__galery ends -->
+							
+						</section><!-- .showcase ends -->
+					</div><!-- .col-md-10 ends -->
+				</div><!-- .row ends -->
+
+<div class="showcase__controls">
+	<div class="row">
+		<div class="col-md-11">
+			<ul class="s-controls__list s-controls__dectop">
+				<li class="s-controls__item s-controls__item_active" id="s-controls__item1">1</li>
+				<li class="s-controls__item" id="s-controls__item2">2</li>
+				<li class="s-controls__item" id="s-controls__item3">3</li>
+				<li class="s-controls__item" id="s-controls__item4">4</li>
+				<li class="s-controls__item" id="s-controls__item5">5</li>
+				<li class="s-controls__item" id="s-controls__item6">6</li>
+				<li class="s-controls__item" id="s-controls__item7">7</li>
+				<li class="s-controls__item" id="s-controls__item8">8</li>
+				<li class="s-controls__item" id="s-controls__item9">9</li>
+				<li class="s-controls__item" id="s-controls__item10">10</li>
+				<li class="s-controls__item" id="s-controls__item11">...</li>
+				<li class="s-controls__item" id="s-controls__item12">12</li>
+			</ul>
+
+			<ul class="s-controls__list s-controls__mob">
+				<li class="s-controls__item s-controls__item_active" id="s-controls__item1">1</li>
+				<li class="s-controls__item" id="s-controls__item2">2</li>
+				<li class="s-controls__item" id="s-controls__item3">3</li>				
+				<li class="s-controls__item" id="s-controls__item11">...</li>
+				<li class="s-controls__item" id="s-controls__item12">12</li>
+			</ul>
+		</div>
+		<div class="col-md-1">
+			<div class="to-top">
+				<img src="img/icons/to-top.png" alt="To top" class="to-top__img" id="to-top__img">
+			</div>
+		</div>
+	</div>
+	
+</div><!-- .showcase__controls -->
+
+				
+			</div><!-- .main__content ends -->
+		</main><!-- .main ends -->
+		
+		<footer class="footer">
+			<div class="footer__menu">
+				<ul class="f-menu__list">
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Über uns</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Impressum</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Datenschutz</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Kontakt</a>
+					</li>
+				</ul>
+			</div><!-- .footer__menu ends -->
+			<div class="footer__content">
+				<div class="f-content__contact">
+					<span class="fc-contact__label">Melde dich fur deinen personlichen Newsletter an</span>
+					<div class="fc-contact__input" id="fc-contact__input">
+						<img src="img/icons/letter-icon.png" alt="fc" class="fc-input__img">
+						<span>Jetzt abonnieren</span>
+					</div>
+				</div><!-- .f-content__contact ends -->
+				<div class="f-content__settings">
+					<span class="fc-settings__label"><a href="#">Newsletter verwalten</a></span>
+					<div class="fc-settings__icon">&nbsp;</div>
+				</div>
+				<div class="row f-content__end">
+					
+						<div class="f-content__copyright">
+							<span class="fc-copyright__span">Copyright &copy; 2015 Discontia.de</span>
+						</div>
+					
+					
+						<div class="f-content__social">
+							<ul class="fc-social__list">
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link fb__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link tw__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link g__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link ig__icon">&nbsp;</a>
+								</li>
+							</ul>
+						</div>
+					
+					
+						<div class="f-content__design">
+							<span class="fc-design__span">Erstellen einer Website</span>
+							<a href="#" class="fc-design__link">
+								<img src="img/designer-logo.png" alt="Designer logo" class="fc-design__img">
+							</a>
+						</div>
+					
+				</div>
+			</div><!-- .footer__content ends -->
+		</footer><!-- .footer ends -->
+
+	</div><!-- .container ends -->
+
+	<div class="newsletter container">
+		<form action="#" class="newsletter__form">
+			<div class="nl-row row">
+				<div class="nl-form__email col-md-12">
+					<input type="text" placeholder="E-mail" name="nl-email" id="nlf-email__input" class="nlf-email__input">
+				</div>
+			</div>
+			<div class="nl-row row">
+				<div class="nl-form__category col-md-6">
+					<input type="text" placeholder="Kategorie" name="nl-category" id="nlf-category__input" class="nlf-category__input">
+				</div>
+				<div class="nl-form__discount col-md-6">
+					<input type="text" placeholder="Rabattbetrag" name="nl-discount" id="nlf-discount__input" class="nlf-discount__input">
+				</div>
+			</div>
+			<div class="nl-row row">
+				<div class="nl-form__brands col-md-6">
+					<input type="text" placeholder="Marken" name="nl-brands" id="nlf-brands__input" class="nlf-brands__input">
+				</div>
+				<div class="nl-form__product col-md-6">
+					<input type="text" name="nl-product" class="nlf-product__input" id="nlf-product__input" value="Abonnierte Produkte" disabled="disabled">
+				</div>
+			</div>
+			<div class="nl-row row">
+				<div class="nl-form__button col-md-12">
+					<input type="submit" value="Abonieren" id="nlf-button__submit" class="nlf-button__submit">
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<div class="hidden">
+
+	</div>
+
+<!-- 	<div class="loader">
+		<div class="loader_inner"></div>
+	</div> -->
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.3.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/jquery/jquery-transform.js"></script>	
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>

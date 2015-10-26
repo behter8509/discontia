@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Card</title>
+
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/animate/animate.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.structure.css">
+	<link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.css">
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/modernizr/modernizr.js"></script>
+
+</head>
+
+<body  class="card">
+
+	<div class="container" >
+
+		<header class="header clearfix">			
+
+			<div class="left-side"> 
+				<div class="header__logo">
+					<a href="" class="h-logo__link">
+						<img src="img/logo.png" alt="Discontia logo" class="h-logo__img">
+					</a>
+				</div><!-- .header__logo ends -->
+				<div class="header__slogan">
+					<span class="h-slogan__span">Exklusivität ist erschwinglich</span>
+				</div><!-- .header__slogan ends -->
+		 	</div> 
+
+		 	<div class="right-side"> 
+				<nav class=" header__nav">
+					<ul class="h-nav__list">
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Damen</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Herren</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Kinder</a>
+						</li>
+						<li class="h-nav__item">
+							<a href="#" class="h-nav__link">Marken</a>
+						</li>
+					</ul><!-- .h-nav__list ends -->
+				</nav><!-- .header__nav ends -->
+				
+				<div class="header__search">
+					<form action="#" class="h-search__form">
+						<div class="h-search__block clearfix">
+							<input type="text" placeholder="Ihr Suchbegriff" id="h-search__input" class="h-search__input">
+							<input type="submit" value="" class="h-search__submit">
+						</div>
+					</form>
+				</div><!-- .header__search ends -->
+				
+				<div class="header__whishlist">			
+					<a href="#" class="h-whishlist__button"></a>		
+					<a href="#" class="h-whishlist__span">Wunschzettel</a>
+				</div><!-- .header__whishlist ends -->
+
+			</div>
+
+		<!-- mobile version menu <= 1200px -->
+			<nav class="mob-menu">
+				<form>
+					<div class="menu-btn">
+						<!-- <a  href=""><img src="./img/menu-mob.png"></a> -->
+						<a id="show-menu" class="close-menu menu-txt">menÜ</a>						
+					</div>
+					<div class="search">
+						<input type="text" placeholder="Ihr Suchbegriff" />
+						<span class="search-btn"><input type="submit" value="" /></span>
+					</div>
+				</form>
+
+			</nav>
+			
+			<nav class="mob_sub__menu clearfix">
+				<ul class="mob_sub__parent">                                  
+					<li>
+						<a href="#" id="damen_sub__list" class="mob_sub__active">Damen</a>
+					</li>
+					<li><a href="">HERREN</a></li>
+					<li><a href="">KINDER</a></li>
+					<li><a href="">MARKEN</a></li>
+				</ul>
+			</nav>
+
+			<nav class="damen__sub_list mob_sub__menu">
+				<ul class="mob_sub__list">
+									
+					<li class="">
+						<a href="#" id="am-sub__list" class="">Acessoires</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">Bauty</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="mob_sub_child" class="active">Bekleidung</a>
+
+						<ul class="mob_sub__child">
+
+							<li class="">
+								<a href="#" class="">Bademode</a>
+							</li>
+							<li class="">
+								<a href="#" class="">Blazer</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Blusen & Tuniken</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hosen</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hosenanzüge & Kostüme</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Jacken</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Jeans</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Hemden</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Kleider</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Mäntel</a>
+							</li>
+							<li class="">
+								<a href="#" class="am-sub__link">Pullover</a>
+							</li>
+							
+							<li class="">
+								<a href="#" id="am-child_list" class="">Shirts & Tops</a>
+							</li>
+		
+						</ul>
+
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">WÄSCHE</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SCHUHE</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SPORTBEKLEIDUNG</a>
+					</li>
+
+					<li class="">
+						<a href="#" id="am-sub__list" class="">SPORTSCHUHE</a>
+					</li>
+				</ul><!-- .a-menu__list -->
+			</nav>
+
+		</header><!-- .header ends -->
+
+		<main class="main">
+			<div class="page-menu">
+				<ul class="page-menu__content">
+					<li class="">					  						
+						<a href="">Home</a><span>/</span>
+					</li>
+					
+					<li class="">
+						<a href="">Damen</a><span>/</span>
+					</li>
+					
+					<li class="">
+						<a href="">Bekleidung</a><span>/</span>
+					</li>
+					
+					<li class="">
+						<a href="">Shirts & Tops</a><span>/</span>
+					</li>
+
+					<li class="">
+						<a href="">Longsleeves</a><span>/</span>
+					</li>
+
+					<li class="">
+						<a href="" class="active">Mishumo Longsleeve</a>
+					</li>
+
+
+				</ul>
+			</div><!-- .main__filters ends -->
+
+
+			<div class="main__content">
+				<div class="row">
+					<div class="mob_left col-md-2 col-sm-3 col-xs-3">
+						<aside class="aside">
+							<div class="aside-txt">
+								<p>
+									<a href="">Alles von edc by Mexx</a>
+									<a href="">Andere edc by Mexx Blusen
+									& Tuniken</a>
+								</p>
+							</div>			
+							
+
+							<div class="aside__menu">
+								
+								<ul class="a-menu__list">
+									
+									<li class="a-menu__item a-menu__item_active a-menu">
+										
+										<a href="#" id="am-sub__list" class="close_list curr_list a-menu__link">Damen</a>
+										
+										<ul class="am-sub__list ">
+												
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Acessoires</a>
+
+												<ul class="am-sub__list list_2">
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Acessoires</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bauty</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bekleidung</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Wäsche</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Schuhe</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Sportbekleidung</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Sportschuhe</a>
+													</li>
+												</ul>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Bauty</a>
+											</li>
+
+											<li class="a-menu__item bg__sub_menu">
+												<a href="#" id="am-sub__list" class="close_list active a-sub__link">Bekleidung</a>
+
+												<ul class="am-sub__list list_2 pos_list">
+
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Bademode</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Blazer</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Blusen & Tuniken</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hosen</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hosenanzüge & Kostüme</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Jacken</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Jeans</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Hemden</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Kleider</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Mäntel</a>
+													</li>
+													<li class="am-sub__item">
+														<a href="#" class="am-sub__link">Pullover</a>
+													</li>
+													
+													<li class="am-sub__item">
+														<a href="#" id="am-child_list" class="a__sub_open am-sub__link active">Shirts & Tops</a>
+														
+														<ul class="am-sub_child__menu">
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Poloshirts</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">T-Shirts</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Tops</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link active">Longsleeves</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Boleros</a>
+															</li>
+															<li class="am-sub__item">
+																<a href="#" class="am-sub__link">Strickshirts</a>
+															</li>								
+														</ul>
+													</li>
+								
+												</ul>
+
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Wäsche</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Schuhe</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Sportbekleidung</a>
+											</li>
+
+											<li class="a-menu__item">
+												<a href="#" id="am-sub__list" class="a-sub__link">Sportschuhe</a>
+											</li>
+										</ul>
+
+										</li>
+
+										<li class="a-menu__item a-menu__item_active">
+											<a href="#" id="am-sub__list" class="a-menu__link">Herren</a>
+										</li>
+										
+										<li class="a-menu__item a-menu__item_active">
+											<a href="#" id="am-sub__list" class="a-menu__link">Kinder</a>
+										</li>
+
+									
+
+									
+								</ul><!-- .a-menu__list -->
+							</div><!-- .aside__menu ends -->						
+						</aside><!-- .aside ends -->
+					</div><!-- .col-md-2 ends-->
+					<div class="col-md-10 col-sm-9 col-xs-9 mob_right">
+						<section class="showcase">
+							
+							<div class="card_product clearfix">
+								<div class="left-side">
+									<div class="mob_container">
+										<h1 class="tittle_mob">Mishumo Longsleeve</h1>
+										<div class="logo_brand_mob"><img src="./img/card/mexx_brand.png" /> </div>
+										
+									</div>
+
+									<ul>
+										<li class="photo_product"><img src="./img/card/img-1.png"></li>
+										<li class="soc-btn">
+											<div>
+												<a href="#" class="fb"></a>
+												<a href="#" class="tw"></a>
+												<a href="#" class="google_p"></a>
+												<a href="#" class="i_gr"></a>
+											</div>	
+										</li>
+									</ul>
+								</div>
+
+								<div class="right-side">
+									<div class="desctop_block">
+										<div class="logo_brand"><img src="./img/card/mexx_brand.png" /> </div>
+										<h1>Mishumo Longsleeve reduziert</h1>
+									</div>
+									<h3>Produktdetails</h3>
+									<p class="text_block">
+										Im eindrucksvollen Biker-Stil und trendiger Färbung präsentiert sich dieser Blazer und überzeugt durch sportive 
+										Details, seinen weichen Griff und den komfortablen Stretch-Anteil. Detailreich, ausdrucksstark und über alle Maßen 
+										modisch - ein Fashion-Piece der Extraklasse. Kurzer Blazer Cial im dezenten Biker-Look von CINQUE Sportive 
+										Besätze und Ziernähte Rundhals-Ausschnitt sportiv abgesteppt Asymmetrischer Reißverschluss Schulterbesatz und 
+										Formnähte mit Paspel Schräge Paspeltaschen vorne Breiter Saumbund, im Rückteil mit halbrundem Besatz und 
+										Dekonähten Futter innen mit dekorativem Allover-Print, Spitzenborte am Futterrand Maße bei Größe 36: 
+										Gesamtlänge ca. 49 cm, Brustweite ca. 90 cm Material: 63% Baumwolle, 35% Leinen, 2% Elasthan - weiche, 
+										elastische Qualität Farbe: Grau, Garment Dyed. <a href="">Weiter lesen... </a>
+									</p>
+
+									<ul class="v-gross">
+										<li>Verfügbare Größen:</li> <li>36</li> <li>40</li>
+									</ul>
+
+									<ul class="price">
+										<li>€29.99</li> <li>€54.99</li> <li>Versand:</li> <li>5.99 €</li>      
+									</ul>
+
+									<ul class="buttons clearfix">
+										<li><a class="active" href="">zum shop</a></li>
+										<li><a href="#" id="sale-alarm">Sale-Alarm</a></li>
+										<li><a href="">Auf den Wunschzettel</a></li>
+									</ul>	
+								</div>
+
+
+							</div>
+
+
+
+							<div class="showcase__galery">
+							
+							<!-- Mobile version >=640px -->	
+								<ul class="s-galery__list s-gallery__mobile">
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-1.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-2.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a href="#">
+											</div>
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>									
+								</ul>
+								<!-- End mobile version >=640px -->	
+
+
+								<ul class="s-galery__list s-gallery__desctop">
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-3.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-4.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-5.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+											<div class="p-description">											
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-6.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-50.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-50%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-7.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-75.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-75%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-8.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+
+											<div class="p-description">
+												<a href="#" class="p-description__text">Gabor Schaftsandale ocean bla bla bla</a>
+											</div>
+
+											<div class="p-price">
+												<span class="p-price__text p-price__text_bold">€23.99</span>
+												<span class="p-price__text p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>
+									<li class="s-galery__item">
+										<div class="product">
+											<div class="p-discount">
+												<img src="img/icons/disc-12.png" alt="Product discount" class="p-discount__img">
+												<span class="p-discount__span">-12%</span>
+											</div>
+											<div class="p-whish">&nbsp;</div>
+											
+											<div class="p-image">
+												<a href="#">
+													<img src="img/cat/cat-item-9.jpg" alt="Product image" class="p-image__img">
+												</a>	
+											</div>
+											
+											<div class="p-description">
+												<a class="p-description__text">Gabor Schaftsandale ocean</a>
+											</div>
+
+											<div class="p-price">
+												<span class="p-price__text_bold">€23.99</span>
+												<span class="p-price__text_lt">€26.99</span>
+												<span class="p-price__shop">Zum shop</span>
+											</div>
+										</div>
+									</li>									
+								</ul>
+							</div><!-- .showcase__galery ends -->
+
+							<div class="showcase__controls">
+								<div class="row">
+									<div class="col-md-11">
+										<ul class="s-controls__list">
+											<li class="s-controls__item s-controls__item_active" id="s-controls__item1">1</li>
+											<li class="s-controls__item" id="s-controls__item2">2</li>
+											<li class="s-controls__item" id="s-controls__item3">3</li>
+											<li class="s-controls__item" id="s-controls__item4">4</li>
+											<li class="s-controls__item" id="s-controls__item5">5</li>
+											<li class="s-controls__item" id="s-controls__item6">6</li>
+											<li class="s-controls__item" id="s-controls__item7">7</li>
+											<li class="s-controls__item" id="s-controls__item8">8</li>
+											<li class="s-controls__item" id="s-controls__item9">9</li>
+											<li class="s-controls__item" id="s-controls__item10">10</li>
+											<li class="s-controls__item" id="s-controls__item11">...</li>
+											<li class="s-controls__item" id="s-controls__item12">12</li>
+										</ul>
+									</div>
+									<div class="col-md-1">
+										<div class="to-top">
+											<img src="img/icons/to-top.png" alt="To top" class="to-top__img" id="to-top__img">
+										</div>
+									</div>
+								</div>
+							</div><!-- .showcase__controls -->
+						</section><!-- .showcase ends -->
+					</div><!-- .col-md-10 ends -->
+				</div><!-- .row ends -->
+			</div><!-- .main__content ends -->
+		</main><!-- .main ends -->
+		
+		<footer class="footer">
+			<div class="footer__menu">
+				<ul class="f-menu__list">
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Über uns</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Impressum</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Datenschutz</a>
+					</li>
+					<li class="f-menu__item">
+						<a href="#" class="f-menu__link">Kontakt</a>
+					</li>
+				</ul>
+			</div><!-- .footer__menu ends -->
+			<div class="footer__content">
+				<div class="f-content__contact">
+					<span class="fc-contact__label">Melde dich fur deinen personlichen Newsletter an</span>
+					<div class="fc-contact__input" id="fc-contact__input">
+						<img src="img/icons/letter-icon.png" alt="fc" class="fc-input__img">
+						<span>Jetzt abonnieren</span>
+					</div>
+				</div><!-- .f-content__contact ends -->
+				<div class="f-content__settings">
+					<span class="fc-settings__label"><a href="#">Newsletter verwalten</a></span>
+					<div class="fc-settings__icon">&nbsp;</div>
+				</div>
+				<div class="row f-content__end">
+					
+						<div class="f-content__copyright">
+							<span class="fc-copyright__span">Copyright &copy; 2015 Discontia.de</span>
+						</div>
+					
+					
+						<div class="f-content__social">
+							<ul class="fc-social__list">
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link fb__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link tw__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link g__icon">&nbsp;</a>
+								</li>
+								<li class="fc-social__item">
+									<a href="#" class="fc-social__link ig__icon">&nbsp;</a>
+								</li>
+							</ul>
+						</div>
+					
+					
+						<div class="f-content__design">
+							<span class="fc-design__span">Erstellen einer Website</span>
+							<a href="#" class="fc-design__link">
+								<img src="img/designer-logo.png" alt="Designer logo" class="fc-design__img">
+							</a>
+						</div>
+					
+				</div>
+			</div><!-- .footer__content ends -->
+		</footer><!-- .footer ends -->
+
+	</div><!-- .container ends -->
+
+
+	<div class="hidden">
+
+	</div>
+
+
+<!-- Sale-Alarm einrichten -->
+
+<div class="sale-alarm__dialog container">
+	<form action="#" class="newsletter__form">
+		<div class="nl-row row">
+			<div class="nl-form__email col-md-12">
+				<input type="text" placeholder="E-mail" name="nl-email" id="nlf-email__input" class="nlf-email__input">
+			</div>
+
+			<div class="sale-alarm__price col-md-12">
+				<ul>
+					<li class="text">Wie viel sind Sie bereit zu zahlen?</li>
+					<li class=""><input type="text" placeholder="0€" name="nl-email" id="nlf-email__input" class="text-field"></li>
+					<li class="text">Sobald der Preis in Ihren Wuschbereich sinkt, werden Sie per E-Mail benachrichtigt.</li>
+				</ul>
+				
+			</div>
+
+			<div class="nl-form__button col-md-12">
+				<input id="nlf-button__submit" class="nlf-button__submit" type="submit" value="Abonnieren">
+			</div>
+			
+		</div>
+	</form>
+</div>
+
+
+
+
+
+<!-- 	<div class="loader">
+		<div class="loader_inner"></div>
+	</div> -->
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="libs/jquery/jquery-1.11.3.min.js"></script>
+	<script src="libs/jquery-ui/jquery-ui.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/jquery/jquery-transform.js"></script>	
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+
+	<script src="js/common.js"></script>
+
+</body>
+</html>
